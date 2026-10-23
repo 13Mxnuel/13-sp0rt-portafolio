@@ -1,148 +1,90 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Catálogo de uniformes deportivos de ejemplo de 13 Sports.">
-  <title>13 Sports | Uniformes deportivos</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="13 Sports: diseños deportivos con identidad para basketball, fútbol, voleibol y T-shirts.">
+<title>13 Sports | Haz que mañana supere tu ayer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
 </head>
 <body>
-  <header class="navbar">
-    <a class="logo" href="#inicio"><span>13</span> SPORTS</a>
-    <nav>
-      <a href="#inicio">Inicio</a>
-      <a href="#catalogo">Catálogo</a>
-      <a href="#nosotros">Nosotros</a>
-    </nav>
-    <a class="nav-button" href="#contacto">Contáctanos ↗</a>
-  </header>
-
-  <main>
-    <section class="hero" id="inicio">
-      <div class="hero-content">
-        <p class="eyebrow">DISEÑADOS PARA COMPETIR</p>
-        <h1>VISTE TU<br><span>AMBICIÓN.</span></h1>
-        <p class="hero-description">
-          Uniformes deportivos con identidad, energía y estilo.
-          Tu equipo merece destacar dentro y fuera de la cancha.
-        </p>
-        <a class="primary-button" href="#catalogo">EXPLORAR CATÁLOGO ↗</a>
-        <div class="hero-note">
-          <span class="status-dot"></span>
-          DISEÑOS DE MUESTRA · TEMPORADA 2026
-        </div>
-      </div>
-      <div class="hero-art">
-        <div class="big-number">13</div>
-        <div class="art-label">NO JUEGUES<br>PARA ENCAJAR.</div>
-        <div class="art-line"></div>
-        <div class="art-tag">SPORTS / 001</div>
-      </div>
-    </section>
-
-    <section class="ticker">
-      <span>FUERZA</span><span>✳</span>
-      <span>IDENTIDAD</span><span>✳</span>
-      <span>DISCIPLINA</span><span>✳</span>
-      <span>13 SPORTS</span>
-    </section>
-
-    <section class="catalog section" id="catalogo">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">NUESTRA SELECCIÓN</p>
-          <h2>CATÁLOGO<span>.</span></h2>
-        </div>
-        <p class="section-description">
-          Encuentra la inspiración para tu próximo uniforme.
-          Todos los modelos son ejemplos de diseño.
-        </p>
-      </div>
-
-      <div class="filters" aria-label="Filtrar uniformes">
-        <button class="filter active" data-filter="todos">Todos</button>
-        <button class="filter" data-filter="basket">Basketball</button>
-        <button class="filter" data-filter="futbol">Fútbol</button>
-        <button class="filter" data-filter="voleibol">Voleibol</button>
-      </div>
-
-      <div class="product-grid">
-        <article class="product-card" data-category="basket">
-          <div class="product-art art-blue">
-            <span class="product-tag">01 / BASKET</span>
-            <div class="jersey">
-              <span class="jersey-small">SPORTS</span>
-              <strong>13</strong>
-              <span class="jersey-name">DOMINATE</span>
-            </div>
-          </div>
-          <div class="product-info">
-            <div><h3>Electric Blue</h3><p>Uniforme de basketball</p></div>
-            <span class="product-arrow">↗</span>
-          </div>
-        </article>
-
-        <article class="product-card" data-category="futbol">
-          <div class="product-art art-red">
-            <span class="product-tag">02 / FÚTBOL</span>
-            <div class="jersey">
-              <span class="jersey-small">13 SPORTS</span>
-              <strong>07</strong>
-              <span class="jersey-name">STRIKER</span>
-            </div>
-          </div>
-          <div class="product-info">
-            <div><h3>Red Impact</h3><p>Uniforme de fútbol</p></div>
-            <span class="product-arrow">↗</span>
-          </div>
-        </article>
-
-        <article class="product-card" data-category="voleibol">
-          <div class="product-art art-purple">
-            <span class="product-tag">03 / VOLEIBOL</span>
-            <div class="jersey">
-              <span class="jersey-small">13 SPORTS</span>
-              <strong>08</strong>
-              <span class="jersey-name">RISE UP</span>
-            </div>
-          </div>
-          <div class="product-info">
-            <div><h3>Violet Rush</h3><p>Uniforme de voleibol</p></div>
-            <span class="product-arrow">↗</span>
-          </div>
-        </article>
-      </div>
-      <p class="demo-note">* Catálogo conceptual. Los modelos, nombres y diseños son ilustrativos.</p>
-    </section>
-
-    <section class="about section" id="nosotros">
-      <p class="eyebrow">MÁS QUE UN UNIFORME</p>
-      <h2>CADA EQUIPO<br>TIENE UNA <span>HISTORIA.</span></h2>
-      <p>
-        13 Sports es un concepto de diseño deportivo enfocado en crear
-        una identidad visual para equipos que quieren dejar huella.
-      </p>
-    </section>
-
-    <section class="contact section" id="contacto">
-      <div>
-        <p class="eyebrow">¿TIENES UNA IDEA?</p>
-        <h2>VAMOS A<br>CREARLA<span>.</span></h2>
-        <p>Este espacio está preparado para añadir los datos reales de contacto.</p>
-      </div>
-      <a class="primary-button" href="mailto:contacto@example.com?subject=Consulta%20sobre%20uniformes">
-        CONSULTA DE EJEMPLO ↗
-      </a>
-    </section>
-  </main>
-
-  <footer>
-    <a class="logo" href="#inicio"><span>13</span> SPORTS</a>
-    <p>PORTAFOLIO DE MUESTRA · 2026</p>
-    <a href="#inicio">VOLVER ARRIBA ↑</a>
-  </footer>
+<header class="navbar">
+  <a class="logo" href="#inicio"><span>13</span> SPORTS</a>
+  <nav><a href="#inicio">Inicio</a><a href="#catalogo">Catálogo</a><a href="#nosotros">Nosotros</a></nav>
+  <a class="nav-button" href="#contacto">Hablemos ↗</a>
+</header>
+<main>
+<section class="hero" id="inicio">
+  <div class="hero-content">
+    <p class="eyebrow">IDENTIDAD · DISCIPLINA · ACTITUD</p>
+    <h1>NO VISTAS<br>COMO TODOS.<br><span>DESTACA.</span></h1>
+    <p class="hero-description">Diseños deportivos con carácter, hechos para quienes convierten cada entrenamiento en una oportunidad de superarse.</p>
+    <a class="primary-button" href="#catalogo">EXPLORAR CATÁLOGO <span>↗</span></a>
+    <p class="hero-slogan">“Haz que mañana supere tu ayer”.</p>
+  </div>
+  <div class="hero-art" aria-label="Diseño gráfico de 13 Sports">
+    <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+    <span class="hero-lightning">ϟ</span><div class="big-number">13</div>
+    <div class="art-label">BUILT FOR<br>THE NEXT LEVEL</div><div class="art-tag">13 SPORTS / 001</div>
+  </div>
+</section>
+<div class="ticker"><span>FUERZA</span><b>✳</b><span>IDENTIDAD</span><b>✳</b><span>DISCIPLINA</span><b>✳</b><span>SUPÉRATE</span></div>
+<section class="catalog section" id="catalogo">
+  <div class="section-heading"><div><p class="eyebrow">ELIGE TU CANCHA</p><h2>CATÁLOGO<span>.</span></h2></div><p class="section-description">Explora ideas para tu deporte. Cada pieza es una propuesta visual personalizable.</p></div>
+  <div class="filters" aria-label="Filtrar productos">
+    <button class="filter active" data-filter="todos">Todo</button>
+    <button class="filter" data-filter="basket">Basketball</button>
+    <button class="filter" data-filter="futbol">Fútbol</button>
+    <button class="filter" data-filter="voleibol">Voleibol</button>
+    <button class="filter" data-filter=" tshirt">T-Shirt</button>
+  </div>
+  <div class="product-grid">
+    <article class="product-card" data-category="basket">
+      <button class="product-open" data-name="Court Vision" data-desc="Jersey de basketball de manga corta, con el número 13 y gráficos deportivos." aria-label="Ver detalles de Court Vision">
+        <div class="product-art art-blue"><span class="product-tag">01 / BASKETBALL</span><div class="shirt jersey"><span class="shirt-collar"></span><span class="shirt-brand">13 SPORTS</span><strong>13</strong><span class="shirt-name">COURT VISION</span></div><span class="art-index">COURT / 01</span></div>
+        <div class="product-info"><div><h3>Court Vision</h3><p>Jersey · manga corta</p></div><span class="product-arrow">↗</span></div>
+      </button>
+    </article>
+    <article class="product-card" data-category="futbol">
+      <button class="product-open" data-name="Celeste 13" data-desc="Camiseta de fútbol inspirada en los colores celeste y blanco clásicos de Argentina, con diseño original 13 Sports." aria-label="Ver detalles de Celeste 13">
+        <div class="product-art art-celeste"><span class="product-tag">02 / FÚTBOL</span><div class="shirt argentina"><span class="shirt-collar"></span><span class="shirt-brand">13 SPORTS</span><strong>13</strong><span class="shirt-name">CELESTE</span></div><span class="art-index">FIELD / 02</span></div>
+        <div class="product-info"><div><h3>Celeste 13</h3><p>Camiseta · inspiración albiceleste</p></div><span class="product-arrow">↗</span></div>
+      </button>
+    </article>
+    <article class="product-card" data-category="voleibol">
+      <button class="product-open" data-name="Rise Up" data-desc="Jersey de voleibol de manga corta, con bloques de color y número frontal." aria-label="Ver detalles de Rise Up">
+        <div class="product-art art-purple"><span class="product-tag">03 / VOLEIBOL</span><div class="shirt volley"><span class="shirt-collar"></span><span class="shirt-brand">13 SPORTS</span><strong>08</strong><span class="shirt-name">RISE UP</span></div><span class="art-index">SPIKE / 03</span></div>
+        <div class="product-info"><div><h3>Rise Up</h3><p>Jersey · manga corta</p></div><span class="product-arrow">↗</span></div>
+      </button>
+    </article>
+    <article class="product-card" data-category="tshirt">
+      <button class="product-open" data-name="Compression Core" data-desc="T-shirt de compresión de manga corta, de estilo atlético, para entrenamiento y uso deportivo." aria-label="Ver detalles de Compression Core">
+        <div class="product-art art-lime"><span class="product-tag">04 / T-SHIRT</span><div class="shirt compression"><span class="shirt-collar"></span><span class="shirt-brand">13</span><strong>CORE</strong><span class="shirt-name">COMPRESSION</span></div><span class="art-index">TRAIN / 04</span></div>
+        <div class="product-info"><div><h3>Compression Core</h3><p>T-Shirt · compresión</p></div><span class="product-arrow">↗</span></div>
+      </button>
+    </article>
+    <article class="product-card" data-category="tshirt">
+      <button class="product-open" data-name="Blackout Performance" data-desc="T-shirt de compresión negra con detalles azules y marca 13, pensada para entrenar." aria-label="Ver detalles de Blackout Performance">
+        <div class="product-art art-black"><span class="product-tag">05 / T-SHIRT</span><div class="shirt blackout"><span class="shirt-collar"></span><span class="shirt-brand">13 SPORTS</span><strong>13</strong><span class="shirt-name">BLACKOUT</span></div><span class="art-index">TRAIN / 05</span></div>
+        <div class="product-info"><div><h3>Blackout Performance</h3><p>T-Shirt · compresión</p></div><span class="product-arrow">↗</span></div>
+      </button>
+    </article>
+  </div>
+  <p class="demo-note">Diseños conceptuales de muestra. Los precios, disponibilidad y fabricación deben confirmarse por WhatsApp.</p>
+</section>
+<section class="about section" id="nosotros"><div class="about-mark">13<span>ϟ</span></div><div><p class="eyebrow">NUESTRA MENTALIDAD</p><h2>EL PROGRESO<br>NO SE <span>NEGOCIA.</span></h2><p>13 Sports nace de una idea: vestir la disciplina y la personalidad de cada atleta. Diseños con energía urbana y esencia deportiva, para que tu equipo juegue con identidad.</p><p class="slogan-large">Haz que mañana supere tu ayer.</p></div></section>
+<section class="contact section" id="contacto"><div><p class="eyebrow">TU IDEA EMPIEZA AQUÍ</p><h2>VAMOS A<br>CREARLA<span>.</span></h2><p>¿Te interesa un diseño, quieres personalizar colores o tienes una pregunta? Escríbenos directamente.</p></div><div class="contact-actions"><a class="primary-button" href="https://wa.me/18494684483?text=Hola%2C%2013%20Sports.%20Quiero%20informaci%C3%B3n%20sobre%20el%20cat%C3%A1logo." target="_blank" rel="noopener">WHATSAPP · 849-468-4483 ↗</a><button class="secondary-button" id="open-assistant">Preguntarle al asistente ✳</button></div></section>
+</main>
+<footer><a class="logo" href="#inicio"><span>13</span> SPORTS</a><p>HAZ QUE MAÑANA SUPERE TU AYER.</p><a href="#catalogo">Volver al catálogo ↑</a></footer>
+<div class="assistant-panel" id="assistant-panel" hidden>
+  <div class="assistant-head"><div><span class="assistant-dot"></span><strong>Asistente 13 Sports</strong><small>Ayuda rápida del catálogo</small></div><button id="close-assistant" aria-label="Cerrar asistente">×</button></div>
+  <div class="chat-messages" id="chat-messages"><p class="bot-message">¡Qué lo qué! Soy el asistente de 13 Sports. Pregúntame por las categorías, los diseños o cómo contactarnos.</p></div>
+  <form id="chat-form" class="chat-form"><input id="chat-input" type="text" placeholder="Escribe tu pregunta..." autocomplete="off" required><button type="submit" aria-label="Enviar">➤</button></form>
+  <p class="assistant-note">Asistente automático de demostración; no es una IA conectada a internet.</p>
+</div>
+<dialog id="product-dialog" class="product-dialog"><button class="dialog-close" id="dialog-close" aria-label="Cerrar">×</button><p class="eyebrow">DETALLES DEL DISEÑO</p><h2 id="dialog-title">Producto</h2><p id="dialog-description"></p><a class="primary-button" id="dialog-whatsapp" target="_blank" rel="noopener">CONSULTAR POR WHATSAPP ↗</a></dialog>
 </body>
 </html>
